@@ -15,6 +15,7 @@ body {
   width: 100%;
   background: url("pitch-presentation1.jpg");
   background-size: cover; /* Make the image cover the entire background */
+  background-attachment: fixed;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent the image from repeating */
   padding: 0 10px;
