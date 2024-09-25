@@ -13,7 +13,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   width: 100%;
-  background: url("guitar-web2.jpg");
+  background: url("guitar-web1.jpg");
   background-size: cover; /* Make the image cover the entire background */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent the image from repeating */
