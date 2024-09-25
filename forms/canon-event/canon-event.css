@@ -13,7 +13,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   width: 100%;
-  background: url("canon-event1.jpg");
+  background: url("canon-event1.webp");
   background-size: cover; /* Make the image cover the entire background */
   background-attachment: fixed;
   background-position: center; /* Center the image */
