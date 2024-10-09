@@ -161,17 +161,22 @@
           ></path>
         </svg>
       </div>
-      <div class="brutalist-card__alert">Warning</div>
+            <div class="brutalist-card__alert">Registrations Closed</div>
     </div>
     <div class="brutalist-card__message" id="ermsg">
     </div>
     <div class="brutalist-card__actions">
-      <div class="brutalist-card__button brutalist-card__button--read" id="goBackError">Try again</button>
+      <a href="javascript:history.back()" style="text-decoration: none;"><button class="brutalist-card__button brutalist-card__button--read" id="goBackError">Try again</button></a>
     </div>
   </div>
-  
-  
+
   <script>
+      function function1() {
+          document.getElementById("desc").style.display="none";
+          document.getElementById("error-container").style.display="block";
+      }
+  </script> 
+<!--   <script>
 
     function function1() {
         document.getElementById("desc").style.display="none";
@@ -238,7 +243,7 @@
     });
 
   </script>
-  
+   -->
 
 </body>
 </html>
